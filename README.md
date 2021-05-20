@@ -1,13 +1,13 @@
 # NOTE
 
-This script supports Debian OS and Ubuntu OS.This script is free version feature (ssh, ovpn, and v2ray) only. Contact Admin for more access.
+This script supports Debian OS and Ubuntu OS. This script is free version feature (ssh, ovpn, and v2ray) only. Contact Admin for more access. 
 Before installing, please check your kernel by typing uname -r. If your kernel is still on version 4. or a cloud or rt version, I recommend updating it. For how, see the how-to-update-kernel-in-debian-10.txt file
 
 I like to use Debian 10 with kernel 5.10.0-0.bpo.5-amd64
 
 # INSTALL
 
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/cmln-vpn/autoscript-vpn/main/setup.sh && chmod +x setup.sh && screen -S setup.sh ./setup.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/xfjdllvbnrt/Autoscriptnew/main/setup.sh && chmod +x setup.sh && screen -S setup.sh ./setup.sh
 
 # VPN SERVICES AND PORTS
 
@@ -33,7 +33,18 @@ sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.di
 - FAIL2BAN, DDOS FLATE, NGINX, WEBMIN, SPEEDTEST
 
 ALL MENU
-https://raw.githubusercontent.com/cmln-vpn/autoscript-vpn/main/menu.png
+https://raw.githubusercontent.com/xfjdllvbnrt/Autoscriptnew/main/menu.png
+
+# THANKS TO
+The people who contributed to this script:
+- Horas
+- Wildy
+- William
+- Sweetie
+- Rascom
+- Horas's Group Support
+- and many more
+
 
 ------------------------------
 Contact:
