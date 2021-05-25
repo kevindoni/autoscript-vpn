@@ -1,9 +1,12 @@
 # NOTE
 
 This script supports Debian OS and Ubuntu OS. This script is free version feature (ssh, ovpn, and v2ray) only. Contact Admin for more access. 
-Before installing, please check your kernel by typing uname -r. If your kernel is still on version 4. or a cloud or rt version, I recommend updating it. For how, see the how-to-update-kernel-in-debian-10.txt file
 
-I like to use Debian 10 with kernel 5.10.0-0.bpo.5-amd64
+# UPGRADE KERNEL
+
+If you are using Debian OS, you must upgrade your kernel first. Ubuntu OS no need to upgrade kernel.
+
+wget https://raw.githubusercontent.com/cmln-vpn/autoscript-vpn/main/up-kernel-deb.sh && chmod +x up-kernel-deb.sh && screen -S up-kernel-deb.sh ./up-kernel-deb.sh
 
 # INSTALL
 
